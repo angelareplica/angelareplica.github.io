@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      
+    <!-- Your CSS files -->
+    <link rel="stylesheet" href="style/app.css">
+    
+    <!-- google fonts: Roboto Condensed(super-font) and Lora(sub-font) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet"> 
+  
+      
+      
+    <title>Tate Project</title>
+  </head>
+    
+  <body class="light-theme">
+    <div class="container"><!-- start of the main container-->
+        <div class="row justify-content-center"><!-- headline and intro -->
+            <div class="col-lg-10 ">
+                <p class="kicker super-font">ART!</p>
+                <h1 class="headline super-font">Only 4% of the Tate Collection's Artists Are Women</h1>
+                <p class="credit super-font">Angela Wang</p>
+                <p class="date sub-font">Published July 27, 2018</p>
+                <p class="body-text sub-font">
+                    After focusing my previous project on the gender diversity of artists in MoMA's collection, I've decided to look into other high profile art institutions. (This is the last art-museum-gender project from me for this class, I swear! Unless the Met makes more of their data available... in which case, I would love to answer the age old question posed by the Guerilla Girls: "<i>Do women have to be naked to get into the Met Museum?</i>")
+
+<br><br>The Tate seems like a pretty progressive museum: They even publish gender pay gap and diversity reports about their workforce. But does their collection reflect their stated values? A cursory analysis below shows that their collection is 96% male, 4% female. That's pretty bad. I'd like to look into their acquisitions over time, as well as what kinds of artists are represented in their collection.
+                </p>
+            </div>
+        </div>
+        
+<!-- start of one size B image -->
+<div class="row justify-content-center"> <!-- labels/deszcriptions and three charts for mobile -->
+    <div class="col-md-10"><!-- left -->
+        <p class="label super-font">The Tate Collection by Gender</p>
+        <p class="label-text super-font">Yikes!</p>
+        <img class="image" src="style/images/tate-collection-by-gender_edited.png" alt="image description">
+        <p class="note sub-font"> <br>
+        SOURCE: The Tate Collection (<a href=https://github.com/tategallery/collection>GitHub</a>)
+        </p>
+    </div>
+</div>
+<!-- end of one size B image -->        
+
+
+<!-- start of one size B image -->
+<div class="row justify-content-center"> <!-- labels/deszcriptions and three charts for mobile -->
+    <div class="col-md-10"><!-- left -->
+        <p class="label super-font">How many of those works are by dead white men?</p>
+        <p class="label-text super-font">Most of the works by women are by women who are still alive. The same can't be said for works by male artists.</p>
+        <img class="image" src="style/images/tate-dead-artists-by-gender-edited2.png" alt="image description">
+        <p class="note sub-font"><br>
+        </p>
+    </div>
+</div>
+<!-- end of one size B image -->    
+
+        <div class="row justify-content-center"><!-- headline and intro -->
+            <div class="col-lg-10 ">
+                <p class="subhead super-font">But the data may be skewed by J.M.W. Turner</p>
+                <p class="body-text sub-font">
+                At nearly 40,000 artworks, the Tate owns the single largest collection of works by romantic painter J.M.W. Turner. This is skewing all of my matplotlib charts to some degree. 
+                <br><br>The data show that most of the Turners were acquired in 1856, the year Turner's will was executed. His finished works were bequeathed to the state, eventually housed in an institution funded by sugar magnate Henry Tate. The Tate officially opened to the public in 1897 -- so let's look at the gender split of acquisitions made after that point.
+                </p>
+            </div>
+        </div>
+
+<!-- start of one size B image -->
+<div class="row justify-content-center"> <!-- labels/deszcriptions and three charts for mobile -->
+    <div class="col-md-10"><!-- left -->
+        <p class="label super-font">Tate Acquisitions by Gender Over Time</p>
+        <p class="label-text super-font">Since 1897, when the Tate opened to the public.</p>
+        <img class="image" src="style/images/tate-gender-line-plot-post1897_edited.png" alt="image description">
+        <p class="note sub-font">
+        </p>
+    </div>
+</div>
+<!-- end of one size B image -->      
+        <div class="col-lg-10 ">
+            <p class="body-text sub-font">
+            Without fail, the Tate has always acquired significantly more art by male artists than female artists. <br><br>
+
+            Taking the disproportionately large number of Turner works into consideration, it's worth looking at the gender split of the entire collection again.
+            </p>
+        </div>
+
+        <div class="row justify-content-center"> <!-- labels/deszcriptions and three charts for mobile -->
+            <div class="col-md-10"><!-- left -->
+                <p class="label super-font">The Tate Collection by Gender</p>
+        <p class="label-text super-font">And by whether the artist is J.M.W. Turner or not.</p>
+                <img class="image" src="style/images/tate-collection-by-gender-waffle-edited2.png" alt="image description">
+                <p class="note sub-font">NOTE: Each square represents 100 artworks.
+                </p>
+            </div>
+        </div>  
+    
+        <div class="col-lg-10 ">
+                <p class="body-text sub-font">
+                Even without considering J.M.W. Turner's works, the archive is overwhelmingly male. 
+                <br> Basically: If you're an artist who wants to get into the Tate's permanent collection, try being a man -- or J.M.W. Turner.
+                <br>
+                </p>
+            </div>
+        
+        
+        
+        
+      </div><!-- end of the main container-->
+   
+        
+
+      
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
