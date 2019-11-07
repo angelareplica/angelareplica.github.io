@@ -8,7 +8,7 @@ body {
 
 @media (min-width: 1200px) {
   .container-fluid {
-    width: 80% !important;
+    width: 75% !important;
   }
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-family: "Ubuntu Mono", monospace;
   letter-spacing: -5px;
   margin-bottom: 20px;
@@ -32,7 +32,7 @@ h1 {
 .social-icon {
   color: grey;
   text-decoration: none;
-  font-size: 25pt;
+  font-size: 20pt;
   padding: 5px;
 }
 
@@ -54,7 +54,7 @@ h1 {
 
 p {
   margin: 5px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 hr {
@@ -65,7 +65,7 @@ hr {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Ubuntu Mono", monospace;
 }
 
@@ -88,7 +88,7 @@ img:hover{
 }
 
 .desc {
-  font-size: 11pt;
+  font-size: 10pt;
 }
 
 /* Add a little space under the navbar */
